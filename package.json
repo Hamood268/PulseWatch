@@ -1,0 +1,25 @@
+{
+  "name": "pulsewatch",
+  "version": "1.0.0",
+  "description": "A modern, real-time API monitoring platform built with Node.js, Express, and MongoDB. Keep your APIs and endpoints healthy with continuous uptime monitoring.",
+  "main": "Backend/index.js",
+  "scripts": {
+    "start": "node ./Backend/index.js",
+    "dev": "node ./Backend/index.js"
+  },
+  "keywords": ["HTML", "CSS", "JavaScript", "NodeJS", "MongoDB", "Pulse-Watch", "PulseWatch", "Dashboard", "Monitoring Dashboard", "monitoring", "api", "endpoint", "api tracker"],
+  "author": "Mohammed",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.0",
+    "node-cron": "^4.2.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
