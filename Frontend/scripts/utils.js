@@ -204,7 +204,7 @@ const ValidationUtils = {
     }
 
     // Validate interval
-    const validIntervals = [30, 60, 300, 600, 1800, 3600, 7200];
+    const validIntervals = [30, 60, 300, 600, 900, 1800, 2700, 3600, 7200];
     if (!validIntervals.includes(parseInt(interval))) {
       errors.push("Invalid check interval selected");
     }
