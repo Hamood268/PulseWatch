@@ -22,14 +22,8 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:8000",
-        description: "Local development server",
-      },
-      // Uncomment when you have production server
-      // {
-      //   url: "https://your-production-url.com",
-      //   description: "Production server",
-      // },
+        url: "https://pulsewatch-led1.onrender.com/",
+      }
     ],
     components: {
       securitySchemes: {
