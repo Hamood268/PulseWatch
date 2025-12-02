@@ -43,13 +43,13 @@ const newMonitor = async (req, res) => {
       });
     }
 
-    const validIntervals = [30, 60, 300, 600, 1800, 3600];
+    const validIntervals = [30, 60, 300, 600, 900, 1800, 2700, 3600, 7200];
     if (!validIntervals.includes(Number(interval))) {
       return res.status(400).json({
         code: 400,
         status: "Bad Request",
         message:
-          "Interval must be one of: 30, 60, 300, 600, 1800, 3600 seconds",
+          "Interval must be one of: 30, 60, 300, 600, 900, 1800, 2700, 3600, 7200 seconds",
       });
     }
 
