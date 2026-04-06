@@ -128,6 +128,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Developer
 
 **Mohammed**
-- Twitter: [@ha268h](https://x.com/ha268h)
+- Twitter: [@haaoi_dev](https://x.com/haaoi_dev)
 - GitHub: [@hamood268](https://github.com/hamood268)
 - PayPal: [Support](https://paypal.me/Mohammed0268)
