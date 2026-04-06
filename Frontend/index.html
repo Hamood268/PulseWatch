@@ -71,7 +71,20 @@
 
     <div class="toast-container" id="toastContainer"></div>
 
+    <script src="utils.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    UIUtils.showToast(
+      "Due to a recent database outage, all users are required to create a new account and re-add their monitors. I sincerely apologize for the inconvenience.",
+      "warning",
+      0
+    );
+  });
+</script>
+
     <script src="./scripts/utils.js"></script>
     <script src="./scripts/auth.js"></script>
+
+    
   </body>
 </html>
