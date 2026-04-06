@@ -1,4 +1,4 @@
-const { Schema, model, default: mongoose, version } = require("mongoose");
+const { Schema, model, default: mongoose } = require("mongoose");
 
 function formatCred(ret) {
   return {
