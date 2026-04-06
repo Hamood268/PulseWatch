@@ -20,13 +20,13 @@ const monitors = new Schema(
     userId: {
       type: String,
       required: true,
-      index: true
+      index: true,
     },
     monitorId: {
       type: String,
       required: true,
       unique: true,
-      index: true
+      index: true,
     },
     name: {
       type: String,
@@ -35,12 +35,12 @@ const monitors = new Schema(
     url: {
       type: String,
       required: true,
-      trim: true
+      trim: true,
     },
     interval: {
       type: Number,
       required: true,
-      default: 60
+      default: 60,
     },
     status: {
       type: String,
@@ -61,10 +61,23 @@ const monitors = new Schema(
     },
     history: [
       {
-        status: String,
-        date: Date,
-        message: String,
-        responseTime: Number,
+        status: {
+          type: String,
+          enum: ["Up", "Down"],
+          required: true,
+        },
+        responseTime: {
+          type: Number,
+          required: true,
+        },
+        timestamp: {
+          type: Date,
+          default: Date.now,
+        },
+        message: {
+          type: String,
+          default: null,
+        },
       },
     ],
     insertionOrder: {
